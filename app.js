@@ -18,7 +18,7 @@ const app = express();
 const cors = require('cors');
 const bodyParser = require('body-parser');
 
-var task = require('../model/task');
+var task = require('./model/task');
 
 
 //----------------------------------------------
